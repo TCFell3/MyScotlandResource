@@ -1,9 +1,10 @@
 * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 
 img{
     width: 100%;
+    border-radius: 5px;
 }
 
 .hero-image{
@@ -33,4 +34,23 @@ img{
 
 .info{
     font-size: 1em;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card{
+    background-color: rgb(45, 110, 185);
+}
+
+.card-text{
+    text-align: center;
+    color: whitesmoke;
 }
